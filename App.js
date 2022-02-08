@@ -10,17 +10,17 @@ import {
   View,
 } from 'react-native';
 import 'react-native-gesture-handler';
-import SignupScreen from './screens/SignupScreen';
-import LoginScreen from './screens/LoginScreen';
+import SignupScreen from 'SignupScreen';
+import LoginScreen from 'LoginScreen';
 import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 import { NavigationContainer, } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import auth from '@react-native-firebase/auth'
-import HomeScreen from './screens/HomeScreen';
+import HomeScreen from '.HomeScreen';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
-import ChatScreen from './screens/ChatScreen';
+import ChatScreen from 'ChatScreen';
 import firestore from '@react-native-firebase/firestore'
-import AccountScreen from './screens/AccountScreen';
+import AccountScreen from 'AccountScreen';
 
 
 const theme = {
